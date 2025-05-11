@@ -1,0 +1,68 @@
+body{
+    background-color:  hsl(47, 88%, 63%);
+    align-items: center;
+    margin: 100px;
+    padding: 0;
+    display: grid;
+    place-content: center;
+    
+}
+.card{
+
+    font-size: 16px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    width: 50%;
+   padding: 20px;
+   border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 7px 7px black;
+    position: relative;
+    font-family: Figtree;
+   
+}
+.image{
+    border-radius: 20px;
+}
+
+p.button{
+    font-size: 14px;
+    border: 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 800;
+    width: 20%;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.publish{
+    flex-wrap: wrap;
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    font-weight: 500;
+}
+.article{
+    line-height: 25px;
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+
+}
+.author{
+    display: flex;
+}
+.authimg{
+    margin-top: 5px;
+}
+.authname{
+    padding-left: 10px;
+    margin-top: 10px;
+    font-weight: 800;
+}
+.attribution{
+    margin-top: 50px;
+    text-align: center;
+}
